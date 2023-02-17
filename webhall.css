@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+section {
+    background: url('../images/secbg.jpg') no-repeat center center/cover;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 35rem;
+    background: url('../images/cbg.webp') no-repeat center center/cover;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    opacity: 1;
+    z-index: -1;
+}
+
+#welcome h1,
+h2 {
+    font-size: 8vw;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+}
+
+#credit {
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+}
+
+#mynavbar {
+    border: 4px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: black;
+
+}
+
+@media (max-width: 470px) {
+    .box .container #mynavbar {
+        flex-flow: column;
+    }
+}
+
+#mynavbar ul li {
+    list-style: none;
+    padding: 1.2vmax 5vmax;
+}
+
+#mynavbar ul li:hover {
+    background-color: rgb(64, 240, 143);
+    transition: 0.2s;
+}
+
+
+#mynavbar ul li a {
+    text-decoration: none;
+    font-family: Bree Serif;
+    color: White;
+}
+
+#portdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#port {
+
+    display: flex;
+    justify-content: center;
+    background: url('../images/cbg.webp') no-repeat center center/cover;
+    margin-top: 5rem;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(21, 255, 196, 0.2), 0 6px 20px 0 rgba(17, 196, 255, 0.19);
+}
+
+#port h3 {
+    font-size: 3vw;
+    font-family: 'Bree Serif', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px white;
+}
+
+.box {
+    box-shadow: 0 5px 10px 0 rgba(61, 61, 61, 0.2), 0 6px 20px 0 rgba(61, 61, 61, 0.19);
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3vmax 3vmax;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+
+.container {
+    border-radius: 20px;
+    background: url('secbg.jpg') no-repeat center center/cover;
+    margin: 2vmax;
+    padding: 1em;
+    width: 15%;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+
+}
+
+.container:hover {
+    border: 3px solid rgb(0, 242, 255);
+    transition-duration: 0.4s;
+
+}
+
+#boxme{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.pic {
+    width: 60%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#picme{
+    border: 4px solid rgb(0, 255, 204);
+    border-radius: 10px;
+    margin: 3vmax;
+    width: 30%;
+}
+
+#details{
+    margin: 7vmax 4vmax;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+    font-family: Bree Serif, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 3vmax;
+}
+
+.dropbtn:hover {
+    background-color: #000000;
+    transition: 0.3s;
+    color: white;
+}
+
+.dropbtn:active {
+    color: black;
+    background-color: white;
+}
+
+#portdiv2 {
+    display: flex;
+    justify-content: center;
+}
+
+#port2 {
+
+    display: flex;
+    justify-content: center;
+    background: url('cbg.webp') no-repeat center center/cover;
+    margin-top: 5rem;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(21, 255, 196, 0.2), 0 6px 20px 0 rgba(17, 196, 255, 0.19);
+}
+
+#port2 h3 {
+    font-size: 3vw;
+    font-family: 'Bree Serif', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px white;
+}
+
+#portdiv3 {
+    display: flex;
+    justify-content: center;
+}
+
+#port3 {
+
+    display: flex;
+    justify-content: center;
+    background: url('cbg.webp') no-repeat center center/cover;
+    margin-top: 5rem;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(21, 255, 196, 0.2), 0 6px 20px 0 rgba(17, 196, 255, 0.19);
+}
+
+#port3 h3 {
+    font-size: 3vw;
+    font-family: 'Bree Serif', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px white;
+}
+
+#portdiv4 {
+    display: flex;
+    justify-content: center;
+}
+
+#port4 {
+
+    display: flex;
+    justify-content: center;
+    background: url('cbg.webp') no-repeat center center/cover;
+    margin-top: 5rem;
+    border-radius: 10px;
+    padding: 2rem 4rem;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(21, 255, 196, 0.2), 0 6px 20px 0 rgba(17, 196, 255, 0.19);
+}
+
+#port4 h3 {
+    font-size: 3vw;
+    font-family: 'Bree Serif', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px white;
+}
+
+footer {
+    height: 40vmax;
+    width: auto;
+    background-color: #000000;
+    color: white;
+
+}
+
+.wrapper {
+    display: flex;
+    background-color: #000000;
+}
+
+.wrapper .icon {
+    margin: 9vmax 2vmax;
+    margin-bottom: 3vmax;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vmax;
+    width: 4vmax;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .icon span i {
+    line-height: 2vmax;
+    font-size: 2vw;
+}
+
+.wrapper .icon .tooltip {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 1.2vmax 3vmax;
+    font-size: 2vw;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.icon .tooltip:before {
+    position: absolute;
+    content: "";
+    height: 1vmax;
+    width: 1vmax;
+    background: rgb(0, 0, 0);
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover span {
+    color: rgb(255, 255, 255);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before {
+    background: #3b5fac;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before {
+    background: #46C1F6;
+}
+
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before {
+    background: #fb236b;
+}
+
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before {
+    background: rgb(40, 40, 40);
+}
+
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before {
+    background: #ff1100;
+}
+
+#claimer {
+    border-top: 2px solid rgb(2, 255, 251);
+    font-family: Bree Serif;
+    font-size: 1.8vw;
+    padding: 3px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
